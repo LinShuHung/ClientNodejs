@@ -21,7 +21,6 @@
         android:text="Send Request"
         android:textAllCaps="false"
         android:layout_margin="3dp"
+        android:onClick="sendRequestFun"
         />
-
-
 </androidx.appcompat.widget.LinearLayoutCompat>
