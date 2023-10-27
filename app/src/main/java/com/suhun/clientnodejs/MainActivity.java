@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void sendRequestFun(View view){
-        String url = "http://localhost:5000/";
+        String url = "http://10.0.2.2:8080/";
 
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
